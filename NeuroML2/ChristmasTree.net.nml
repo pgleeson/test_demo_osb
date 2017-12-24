@@ -4,16 +4,16 @@
     <cell id="Base">
         <notes>Base</notes>
         <morphology id="mm">
-            <segment id="0">
+            <segment id="0" name="0">
                 <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="20"/>
                 <distal x="0.000000e+00" y="3.000000e+00" z="0.000000e+00" diameter="20"/>
             </segment>
-            <segment id="1">
+            <segment id="1" name="1">
                 <parent segment="0" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="3.000000e+00" z="0.000000e+00" diameter="20"/>
                 <distal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="40"/>
             </segment>
-            <segment id="2">
+            <segment id="2" name="2">
                 <parent segment="1" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="20"/>
                 <distal x="0.000000e+00" y="2.200000e+01" z="0.000000e+00" diameter="40"/>
@@ -38,11 +38,11 @@
     <cell id="branches">
         <notes>branches</notes>
         <morphology id="mm">
-            <segment id="0">
+            <segment id="0" name="0">
                 <proximal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="5"/>
                 <distal x="0.000000e+00" y="2.000000e+02" z="0.000000e+00" diameter="5"/>
             </segment>
-            <segment id="1">
+            <segment id="1" name="1">
                 <parent segment="0" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.000000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="0.000000e+00" y="2.100000e+02" z="0.000000e+00" diameter="5"/>
@@ -808,26 +808,26 @@
     <cell id="Star">
         <notes>Star</notes>
         <morphology id="mm">
-            <segment id="0">
+            <segment id="0" name="0">
                 <proximal x="0.000000e+00" y="2.300000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="0.000000e+00" y="2.500000e+02" z="0.000000e+00" diameter="0.2"/>
             </segment>
-            <segment id="1">
+            <segment id="1" name="1">
                 <parent segment="0" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.300000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="1.902113e+01" y="2.361803e+02" z="0.000000e+00" diameter="0.2"/>
             </segment>
-            <segment id="2">
+            <segment id="2" name="2">
                 <parent segment="1" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.300000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="1.175571e+01" y="2.138197e+02" z="0.000000e+00" diameter="0.2"/>
             </segment>
-            <segment id="3">
+            <segment id="3" name="3">
                 <parent segment="2" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.300000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="-1.175571e+01" y="2.138197e+02" z="0.000000e+00" diameter="0.2"/>
             </segment>
-            <segment id="4">
+            <segment id="4" name="4">
                 <parent segment="3" fractionAlong="1"/>
                 <proximal x="0.000000e+00" y="2.300000e+02" z="0.000000e+00" diameter="5"/>
                 <distal x="-1.902113e+01" y="2.361803e+02" z="0.000000e+00" diameter="0.2"/>
