@@ -1,6 +1,8 @@
 <neuroml xmlns="http://www.neuroml.org/schema/neuroml2"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" id="ChristmasTree">
     <notes>Happy holidays!</notes>
+    <ionChannel id="pas" type="ionChannelPassive" conductance="10pS"/>
     <cell id="Base">
+        <notes>Base</notes>
         <morphology id="mm">
             <segment id="0">
                 <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="20"/>
@@ -10,8 +12,19 @@
                 <member segment="0"/>
             </segmentGroup>
         </morphology>
+        <biophysicalProperties id="bp">
+            <membraneProperties>
+                <channelDensity id="pas_all" ionChannel="pas" condDensity="1 mS_per_cm2" erev="-65.0 mV" ion="non_specific"/>
+                <specificCapacitance value="1.5 uF_per_cm2"/>
+                <initMembPotential value="-65.0 mV"/>
+            </membraneProperties>
+            <intracellularProperties>
+                <resistivity value="0.07 kohm_cm"/>
+            </intracellularProperties>
+        </biophysicalProperties>
     </cell>
     <cell id="branches">
+        <notes>branches</notes>
         <morphology id="mm">
             <segment id="0">
                 <proximal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="5"/>
@@ -21,8 +34,19 @@
                 <member segment="0"/>
             </segmentGroup>
         </morphology>
+        <biophysicalProperties id="bp">
+            <membraneProperties>
+                <channelDensity id="pas_all" ionChannel="pas" condDensity="1 mS_per_cm2" erev="-65.0 mV" ion="non_specific"/>
+                <specificCapacitance value="1.5 uF_per_cm2"/>
+                <initMembPotential value="-65.0 mV"/>
+            </membraneProperties>
+            <intracellularProperties>
+                <resistivity value="0.07 kohm_cm"/>
+            </intracellularProperties>
+        </biophysicalProperties>
     </cell>
     <cell id="pines">
+        <notes>pines</notes>
         <morphology id="mm">
             <segment id="0" name="i_0_j_0">
                 <proximal x="0.000000e+00" y="4.000000e+01" z="0.000000e+00" diameter="30.0"/>
@@ -488,22 +512,32 @@
                 <member segment="76"/>
             </segmentGroup>
         </morphology>
+        <biophysicalProperties id="bp">
+            <membraneProperties>
+                <channelDensity id="pas_all" ionChannel="pas" condDensity="1 mS_per_cm2" erev="-65.0 mV" ion="non_specific"/>
+                <specificCapacitance value="1.5 uF_per_cm2"/>
+                <initMembPotential value="-65.0 mV"/>
+            </membraneProperties>
+            <intracellularProperties>
+                <resistivity value="0.07 kohm_cm"/>
+            </intracellularProperties>
+        </biophysicalProperties>
     </cell>
     <network id="ChristmasTree">
         <notes>Happy holidays!</notes>
-        <population id="Pop_Base" component="Base" size="2" type="populationList">
+        <population id="Pop_Base" component="Base" size="1" type="populationList">
             <property tag="color" value=".6 .4 .1"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
-        <population id="Pop_branches" component="branches" size="2" type="populationList">
+        <population id="Pop_branches" component="branches" size="1" type="populationList">
             <property tag="color" value="0.2 .1 0.05"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
             </instance>
         </population>
-        <population id="Pop_pines" component="pines" size="2" type="populationList">
+        <population id="Pop_pines" component="pines" size="1" type="populationList">
             <property tag="color" value="0 1 0"/>
             <instance id="0">
                 <location x="0." y="0." z="0."/>
