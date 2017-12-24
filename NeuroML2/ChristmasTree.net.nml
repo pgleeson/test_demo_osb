@@ -6,6 +6,9 @@
                 <proximal x="0.000000e+00" y="0.000000e+00" z="0.000000e+00" diameter="20"/>
                 <distal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="40"/>
             </segment>
+            <segmentGroup id="all">
+                <member segment="0"/>
+            </segmentGroup>
         </morphology>
     </cell>
     <cell id="branches">
@@ -14,6 +17,9 @@
                 <proximal x="0.000000e+00" y="2.000000e+01" z="0.000000e+00" diameter="5"/>
                 <distal x="0.000000e+00" y="2.000000e+02" z="0.000000e+00" diameter="5"/>
             </segment>
+            <segmentGroup id="all">
+                <member segment="0"/>
+            </segmentGroup>
         </morphology>
     </cell>
     <cell id="pines">
@@ -402,6 +408,85 @@
                 <proximal x="0.000000e+00" y="2.114286e+02" z="0.000000e+00" diameter="4.28571428571"/>
                 <distal x="-6.564924e+00" y="1.802857e+02" z="1.021522e+01" diameter="0.2"/>
             </segment>
+            <segmentGroup id="all">
+                <member segment="0"/>
+                <member segment="1"/>
+                <member segment="2"/>
+                <member segment="3"/>
+                <member segment="4"/>
+                <member segment="5"/>
+                <member segment="6"/>
+                <member segment="7"/>
+                <member segment="8"/>
+                <member segment="9"/>
+                <member segment="10"/>
+                <member segment="11"/>
+                <member segment="12"/>
+                <member segment="13"/>
+                <member segment="14"/>
+                <member segment="15"/>
+                <member segment="16"/>
+                <member segment="17"/>
+                <member segment="18"/>
+                <member segment="19"/>
+                <member segment="20"/>
+                <member segment="21"/>
+                <member segment="22"/>
+                <member segment="23"/>
+                <member segment="24"/>
+                <member segment="25"/>
+                <member segment="26"/>
+                <member segment="27"/>
+                <member segment="28"/>
+                <member segment="29"/>
+                <member segment="30"/>
+                <member segment="31"/>
+                <member segment="32"/>
+                <member segment="33"/>
+                <member segment="34"/>
+                <member segment="35"/>
+                <member segment="36"/>
+                <member segment="37"/>
+                <member segment="38"/>
+                <member segment="39"/>
+                <member segment="40"/>
+                <member segment="41"/>
+                <member segment="42"/>
+                <member segment="43"/>
+                <member segment="44"/>
+                <member segment="45"/>
+                <member segment="46"/>
+                <member segment="47"/>
+                <member segment="48"/>
+                <member segment="49"/>
+                <member segment="50"/>
+                <member segment="51"/>
+                <member segment="52"/>
+                <member segment="53"/>
+                <member segment="54"/>
+                <member segment="55"/>
+                <member segment="56"/>
+                <member segment="57"/>
+                <member segment="58"/>
+                <member segment="59"/>
+                <member segment="60"/>
+                <member segment="61"/>
+                <member segment="62"/>
+                <member segment="63"/>
+                <member segment="64"/>
+                <member segment="65"/>
+                <member segment="66"/>
+                <member segment="67"/>
+                <member segment="68"/>
+                <member segment="69"/>
+                <member segment="70"/>
+                <member segment="71"/>
+                <member segment="72"/>
+                <member segment="73"/>
+                <member segment="74"/>
+                <member segment="75"/>
+                <member segment="76"/>
+            </segmentGroup>
         </morphology>
     </cell>
     <network id="ChristmasTree">
