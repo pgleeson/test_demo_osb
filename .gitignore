@@ -5,3 +5,8 @@
 /NeuroML2/network/x86_64
 /NeuroML2/notebooks
 /NeuroML2/network/*.dat
+/NeuroML2/L23/*.mod
+/NeuroML2/L23/LEMS_L23_PC_cADpyr229_1_nrn.py
+/NeuroML2/L23/*.hoc
+/NeuroML2/L23/x86_64
+/NeuroML2/L23/*.dat
