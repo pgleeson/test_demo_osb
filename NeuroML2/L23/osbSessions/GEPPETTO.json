@@ -55,18 +55,18 @@
                 "network"
               ],
               "componentSpecific": {
-                "cameraPosition": {
-                  "x": 0,
-                  "y": 0,
-                  "z": 15
-                },
-                "cameraRotation": {
-                  "rx": 0,
-                  "ry": 0,
-                  "rz": 0,
-                  "radius": 15
-                },
-                "backgroundColor": "0x101010"
+							"cameraPosition": {
+								"x": 68.432,
+								"y": -14.534,
+								"z": 477.623
+							},
+							"cameraRotation": {
+								"rx": 0.235,
+								"ry": 0.129,
+								"rz": 0.406,
+								"radius": 487.582
+							},
+                "backgroundColor": "0x10ff10"
               }
             }
           }
