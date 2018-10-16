@@ -27,7 +27,27 @@
         "id": 1,
         "viewStates": {
           "views": {
-            "Canvas1": {
+            "Popup1": {
+              "widgetType": 1,
+              "isWidget": true,
+              "transparentBackground": false,
+              "name": "Info re tutz",
+              "size": {
+                "height": 150,
+                "width": 459.8
+              },
+              "position": {
+                "left": 1301.5,
+                "top": 356.5
+              },
+              "dataType": "string",
+              "data": "Layer 2\/3 pyramidal cell model from the <a target='_blank' href='https:\/\/bbp.epfl.ch\/nmc-portal\/microcircuit'>Blue Brain Project's Neocortical Microcircuit Collaboration Portal<\/a>.<br\/><br\/> Shake it about...<\/a>.",
+              "componentSpecific": {
+                "customHandlers": [
+
+                ]
+              }
+            },"Canvas1": {
               "widgetType": "CANVAS",
               "isWidget": false,
               "dataType": "instances",
