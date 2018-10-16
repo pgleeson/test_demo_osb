@@ -1,0 +1,115 @@
+{
+	"id": 321,
+	"name": "blue-brain-project-showcase",
+	"experiments": [{
+		"id": 586,
+		"aspectConfigurations": [{
+			"id": 583,
+			"instance": "network",
+			"watchedVariables": ["network.Pop_cADpyr229_L23_PC_5ecbf9b163_0_0[0].Seg0_soma_0_0.v"],
+			"modelParameters": [],
+			"simulatorConfiguration": {
+				"id": 581,
+				"simulatorId": "neuronSimulator",
+				"timestep": 2.5E-5,
+				"length": 2.0,
+				"parameters": {
+					"target": "network"
+				}
+			}
+		}],
+		"name": "cADpyr229_L23_PC_5ecbf9b163 - stepcurrent3",
+		"creationDate": 1539703264000,
+		"lastModified": 1539703302000,
+		"status": "COMPLETED",
+		"simulationResults": [{
+			"id": 751,
+			"simulatedInstance": "network",
+			"result": {
+				"id": 1074,
+				"url": "/experiment_586/results_16102018_162156.h5",
+				"type": "RECORDING"
+			},
+			"format": "GEPPETTO_RECORDING"
+		}, {
+			"id": 752,
+			"simulatedInstance": "network",
+			"result": {
+				"id": 1075,
+				"url": "/experiment_586/rawRecording.zip",
+				"type": "RECORDING"
+			},
+			"format": "RAW"
+		}],
+		"startDate": 1539703302000,
+		"endDate": 1539703317000,
+		"script": "/script.js",
+		"isPublic": false
+	}, {
+		"id": 587,
+		"aspectConfigurations": [{
+			"id": 584,
+			"instance": "network",
+			"watchedVariables": ["network.Pop_cADpyr229_L23_PC_5ecbf9b163_0_0[0].Seg0_soma_0_0.v"],
+			"modelParameters": [],
+			"simulatorConfiguration": {
+				"id": 582,
+				"simulatorId": "neuronSimulator",
+				"timestep": 2.5E-5,
+				"length": 4.0,
+				"parameters": {
+					"target": "network"
+				}
+			}
+		}],
+		"name": "New Experiment 2",
+		"description": "",
+		"creationDate": 1539703335000,
+		"lastModified": 1539703344000,
+		"status": "COMPLETED",
+		"simulationResults": [{
+			"id": 753,
+			"simulatedInstance": "network",
+			"result": {
+				"id": 1076,
+				"url": "/experiment_587/results_16102018_162246.h5",
+				"type": "RECORDING"
+			},
+			"format": "GEPPETTO_RECORDING"
+		}, {
+			"id": 754,
+			"simulatedInstance": "network",
+			"result": {
+				"id": 1077,
+				"url": "/experiment_587/rawRecording.zip",
+				"type": "RECORDING"
+			},
+			"format": "RAW"
+		}],
+		"startDate": 1539703344000,
+		"endDate": 1539703367000,
+		"isPublic": false
+	}],
+	"activeExperimentId": 587,
+	"geppettoModel": {
+		"id": 1073,
+		"url": "/cADpyr229_L23_PC_5ecbf9b163_MODEL9d9c36d0a6d890fb67ca11fdd339d2c2.xmi",
+		"type": "GEPPETTO_PROJECT"
+	},
+	"isPublic": false,
+	"isReadOnly": false,
+	"view": {
+		"id": 776,
+		"viewStates": {
+			"views": {
+				"Canvas1": {
+					"widgetType": "CANVAS",
+					"componentSpecific": {
+						"radiusMap": {},
+						"colorMap": {}
+					}
+				}
+			}
+		}
+	}
+}

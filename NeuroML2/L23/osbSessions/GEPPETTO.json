@@ -1,0 +1,64 @@
+{
+  "activeExperimentId": 1,
+  "experiments": [
+    {
+      "aspectConfigurations": [
+        {
+          "instance": "network",
+          "simulatorConfiguration": {
+				"id": 1,
+				"simulatorId": "neuronSimulator",
+				"timestep": 2.5E-5,
+				"length": 2.0,
+				"parameters": {
+					"target": "network"
+				}
+          },
+          "watchedVariables": ["network.Pop_cADpyr229_L23_PC_5ecbf9b163_0_0[0].Seg0_soma_0_0.v"]
+        }
+      ],
+      "description": "The ..........",
+      "id": 1,
+      "lastModified": "1436102517799",
+      "name": "L23 Tutorial",
+      "status": "DESIGN",
+      "script": "/script.js",
+      "view": {
+        "id": 1,
+        "viewStates": {
+          "views": {
+            "Canvas1": {
+              "widgetType": "CANVAS",
+              "isWidget": false,
+              "dataType": "instances",
+              "data": [
+                "HHTutorial"
+              ],
+              "componentSpecific": {
+                "cameraPosition": {
+                  "x": 0,
+                  "y": 0,
+                  "z": 15
+                },
+                "cameraRotation": {
+                  "rx": 0,
+                  "ry": 0,
+                  "rz": 0,
+                  "radius": 15
+                },
+                "backgroundColor": "0x101010"
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "geppettoModel": {
+    "id": 1,
+    "type": "GEPPETTO_PROJECT",
+	"url": "/cADpyr229_L23_PC_5ecbf9b163_MODEL9d9c36d0a6d890fb67ca11fdd339d2c2.xmi"
+  },
+  "id": 1,
+  "name": "L23 Tutorial"
+}
