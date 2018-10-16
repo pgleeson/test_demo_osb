@@ -52,7 +52,7 @@
               "isWidget": false,
               "dataType": "instances",
               "data": [
-                "HHTutorial"
+                "network"
               ],
               "componentSpecific": {
                 "cameraPosition": {
