@@ -77,7 +77,7 @@
                 "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/l23_intro.json"
               ],
               "componentSpecific": {
-                "activeTutorial": "Part 1: A brief introduction to L23...",
+                "activeTutorial": "A brief introduction to a L23 cell",
                 "currentStep": 0
               },
               "size": {
