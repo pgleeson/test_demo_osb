@@ -41,7 +41,7 @@
                 "top": 356.5
               },
               "dataType": "string",
-              "data": "Layer 2\/3 pyramidal cell model from the <a target='_blank' href='https:\/\/bbp.epfl.ch\/nmc-portal\/microcircuit'>Blue Brain Project's Neocortical Microcircuit Collaboration Portal<\/a>.<br\/><br\/> Shake it about...<\/a>.",
+              "data": "A layer 2\/3 pyramidal cell model from the <a target='_blank' href='https:\/\/bbp.epfl.ch\/nmc-portal\/microcircuit'>Blue Brain Project's Neocortical Microcircuit Collaboration Portal<\/a>.<br\/><br\/> Shake it alll about...<\/a>.",
               "componentSpecific": {
                 "customHandlers": [
 
@@ -67,6 +67,26 @@
 								"radius": 487.582
 							},
                 "backgroundColor": "0x10ff10"
+              }
+            },
+            "Tutorial1": {
+              "widgetType": "TUTORIAL",
+              "isWidget": true,
+              "dataType": "array",
+              "data": [
+                "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/l23_intro.json"
+              ],
+              "componentSpecific": {
+                "activeTutorial": "Part 1: A brief introduction to L23...",
+                "currentStep": 0
+              },
+              "size": {
+                "height": 700,
+                "width": 750
+              },
+              "position": {
+                "left": "50%",
+                "top": "10%"
               }
             }
           }
