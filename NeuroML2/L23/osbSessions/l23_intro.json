@@ -3,6 +3,9 @@
     "height": "600",
     "width": "900",
     "steps": [{
+        "title": " A brief hellp to ...",
+        "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/0.html"
+    }, {
         "title": " A brief introduction to ...",
         "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/1.html"
     }, {
