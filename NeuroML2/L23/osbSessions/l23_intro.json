@@ -8,7 +8,7 @@
     }, {
         "title": " A brief introduction to ...",
         "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/1.html",
-		"action": "$('div.toolbar button :eq(1)').effect('highlight', {}, 6000);"
+		"action": "$('div.toolbar button :eq(1)').effect('highlight', {}, 6000);showModelDescription(getMainType(network));Popup1.setPosition(986,149)"
     }, {
         "title": " More info...",
         "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/2.html"
