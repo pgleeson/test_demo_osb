@@ -1,13 +1,14 @@
 {
     "name": "A brief introduction to a L23 cell",
-    "height": "600",
-    "width": "900",
+    "height": "500",
+    "width": "550",
     "steps": [{
-        "title": " A brief hellp to ...",
+        "title": " A brief guide to ...",
         "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/0.html"
     }, {
         "title": " A brief introduction to ...",
-        "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/1.html"
+        "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/1.html",
+		"action": "$('div.toolbar button :eq(1)').effect('highlight', {}, 6000);"
     }, {
         "title": " More info...",
         "content_url": "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/2.html"

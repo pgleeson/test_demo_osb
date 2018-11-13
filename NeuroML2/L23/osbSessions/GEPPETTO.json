@@ -80,12 +80,13 @@
                 "activeTutorial": "A brief introduction to a L23 cell",
                 "currentStep": 0
               },
+              "transparentBackground": false,
               "size": {
-                "height": 700,
-                "width": 750
+                "height": 500,
+                "width": 550
               },
               "position": {
-                "left": "50%",
+                "left": "30%",
                 "top": "10%"
               }
             }
