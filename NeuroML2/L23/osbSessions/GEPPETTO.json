@@ -9,7 +9,7 @@
 				"id": 1,
 				"simulatorId": "neuronSimulator",
 				"timestep": 2.5E-5,
-				"length": 2.0,
+				"length": 3.0,
 				"parameters": {
 					"target": "network"
 				}
@@ -27,27 +27,7 @@
         "id": 1,
         "viewStates": {
           "views": {
-            "Popup1": {
-              "widgetType": 1,
-              "isWidget": true,
-              "transparentBackground": false,
-              "name": "Info re tutz",
-              "size": {
-                "height": 150,
-                "width": 459.8
-              },
-              "position": {
-                "left": 1301.5,
-                "top": 356.5
-              },
-              "dataType": "string",
-              "data": "A layer 2\/3 pyramidal cell model from the <a target='_blank' href='https:\/\/bbp.epfl.ch\/nmc-portal\/microcircuit'>Blue Brain Project's Neocortical Microcircuit Collaboration Portal<\/a>.<br\/><br\/> Shake it alll about...<\/a>.",
-              "componentSpecific": {
-                "customHandlers": [
-
-                ]
-              }
-            },"Canvas1": {
+            "Canvas1": {
               "widgetType": "CANVAS",
               "isWidget": false,
               "dataType": "instances",
