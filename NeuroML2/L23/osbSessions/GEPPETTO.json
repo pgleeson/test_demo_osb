@@ -1,85 +1,104 @@
 {
-  "activeExperimentId": 1,
-  "experiments": [
-    {
-      "aspectConfigurations": [
+    "activeExperimentId": 1,
+    "experiments": [
         {
-          "instance": "network",
-          "simulatorConfiguration": {
-				"id": 1,
-				"simulatorId": "neuronSimulator",
-				"timestep": 2.5E-5,
-				"length": 3.0,
-				"parameters": {
-					"target": "network"
-				}
-          },
-          "watchedVariables": ["network.Pop_cADpyr229_L23_PC_5ecbf9b163_0_0[0].Seg0_soma_0_0.v"]
-        }
-      ],
-      "description": "The ..........",
-      "id": 1,
-      "lastModified": "1436102517799",
-      "name": "L23 Tutorial",
-      "status": "DESIGN",
-      "script": "/script.js",
-      "view": {
-        "id": 1,
-        "viewStates": {
-          "views": {
-            "Canvas1": {
-              "widgetType": "CANVAS",
-              "isWidget": false,
-              "dataType": "instances",
-              "data": [
-                "network"
-              ],
-              "componentSpecific": {
-							"cameraPosition": {
-								"x": 68.432,
-								"y": -14.534,
-								"z": 477.623
-							},
-							"cameraRotation": {
-								"rx": 0.235,
-								"ry": 0.129,
-								"rz": 0.406,
-								"radius": 487.582
-							},
-                "backgroundColor": "0x10ff10"
-              }
-            },
-            "Tutorial1": {
-              "widgetType": "TUTORIAL",
-              "isWidget": true,
-              "dataType": "array",
-              "data": [
-                "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/l23_intro.json"
-              ],
-              "componentSpecific": {
-                "activeTutorial": "A brief introduction to a L23 cell",
-                "currentStep": 0
-              },
-              "transparentBackground": false,
-              "size": {
-                "height": 500,
-                "width": 550
-              },
-              "position": {
-                "left": "30%",
-                "top": "20%"
-              }
+            "aspectConfigurations": [
+                {
+                    "instance": "network",
+                    "simulatorConfiguration": {
+                        "id": 1,
+                        "simulatorId": "neuronSimulator",
+                        "timestep": 2.5E-5,
+                        "length": 3.0,
+                        "parameters": {
+                            "target": "network"
+                        }
+                    },
+                    "watchedVariables": ["network.Pop_cADpyr229_L23_PC_5ecbf9b163_0_0[0].Seg0_soma_0_0.v"]
+                }
+            ],
+            "description": "The ..........",
+            "id": 1,
+            "lastModified": "1436102517799",
+            "name": "Depolarizing current pulse",
+            "status": "COMPLETED",
+            "simulationResults": [{
+                    "id": 759,
+                    "simulatedInstance": "network",
+                    "result": {
+                        "id": 1087,
+                        "url": "/experiment_1/results_13112018_105412.h5",
+                        "type": "RECORDING"
+                    },
+                    "format": "GEPPETTO_RECORDING"
+                }, {
+                    "id": 760,
+                    "simulatedInstance": "network",
+                    "result": {
+                        "id": 1088,
+                        "url": "/experiment_1/rawRecording.zip",
+                        "type": "RECORDING"
+                    },
+                    "format": "RAW"
+                }],
+            "script": "/script.js",
+            "view": {
+                "id": 1,
+                "viewStates": {
+                    "views": {
+                        "Canvas1": {
+                            "widgetType": "CANVAS",
+                            "isWidget": false,
+                            "dataType": "instances",
+                            "data": [
+                                "network"
+                            ],
+                            "componentSpecific": {
+                                "cameraPosition": {
+                                    "x": 68.432,
+                                    "y": -14.534,
+                                    "z": 477.623
+                                },
+                                "cameraRotation": {
+                                    "rx": 0.235,
+                                    "ry": 0.129,
+                                    "rz": 0.406,
+                                    "radius": 487.582
+                                },
+                                "backgroundColor": "0x10ff10"
+                            }
+                        },
+                        "Tutorial1": {
+                            "widgetType": "TUTORIAL",
+                            "isWidget": true,
+                            "dataType": "array",
+                            "data": [
+                                "https://raw.githubusercontent.com/pgleeson/test_demo_osb/master/NeuroML2/L23/osbSessions/l23_intro.json"
+                            ],
+                            "componentSpecific": {
+                                "activeTutorial": "A brief introduction to a L23 cell",
+                                "currentStep": 0
+                            },
+                            "transparentBackground": false,
+                            "size": {
+                                "height": 500,
+                                "width": 550
+                            },
+                            "position": {
+                                "left": "30%",
+                                "top": "20%"
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      }
-    }
-  ],
-  "geppettoModel": {
+    ],
+    "geppettoModel": {
+        "id": 1,
+        "type": "GEPPETTO_PROJECT",
+        "url": "/cADpyr229_L23_PC_5ecbf9b163_MODEL9d9c36d0a6d890fb67ca11fdd339d2c2.xmi"
+    },
     "id": 1,
-    "type": "GEPPETTO_PROJECT",
-	"url": "/cADpyr229_L23_PC_5ecbf9b163_MODEL9d9c36d0a6d890fb67ca11fdd339d2c2.xmi"
-  },
-  "id": 1,
-  "name": "L23 Tutorial"
+    "name": "L23 Tutorial"
 }
