@@ -10,3 +10,6 @@
 /NeuroML2/L23/*.hoc
 /NeuroML2/L23/x86_64
 /NeuroML2/L23/*.dat
+/NeuroML2/L23/nc/NoNernstChannels/NoNernstChannels.ncx.bak
+/NeuroML2/L23/nc/NoNernstChannels/generatedNEURON
+/NeuroML2/L23/nc/NoNernstChannels/simulations
