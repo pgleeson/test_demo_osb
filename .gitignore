@@ -13,3 +13,7 @@
 /NeuroML2/L23/nc/NoNernstChannels/NoNernstChannels.ncx.bak
 /NeuroML2/L23/nc/NoNernstChannels/generatedNEURON
 /NeuroML2/L23/nc/NoNernstChannels/simulations
+*_nrn.py
+*.mod
+*.hoc
+x86_64
